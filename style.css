@@ -158,7 +158,54 @@ footer{
 }
 
 /* mobile device */
+@media only screen and (max-width:688px) {
+    body{
+        margin: 0;
+    }
+    header{
+        display: flex;
+    }
+    .header{
+        width: 100%;
+        flex-wrap: wrap;
+        justify-content: center;
+        
+    }
+    .banner img{
+        margin-top: 50px;
+        padding-left: 0;
+
+    }
+    .blogs{
+        grid-template-columns: repeat(1,1fr);
+        flex-wrap: wrap;
+        width: 100%;
+        justify-content: center;
+    }
+    
+     main{
+        width: 713px;
+     }
+    .extra{
+        flex-wrap: wrap;
+        width: 96px; ;
+    }
+    .artical{
+        margin-bottom: 60px;
+    }
+    .artical p{
+        width: 500px;
+
+    }
+
+    .footer-section{
+        width: 3px;
+    }
+    
 
 
     
+  
+ 
 }
+    
