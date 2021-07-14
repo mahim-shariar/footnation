@@ -14,7 +14,7 @@ body{
 .header{
     display: flex; 
     padding-top: 50px;
-    background-color:#2D25A0 ;
+    /* background-color:#2D25A0 ; */
     padding: 50px;
 
     
@@ -34,9 +34,14 @@ body{
 .banner img{
     width: 556px;
     padding-left: 106px;
-
+    transition: 1s ease-in-out;
 
 }
+header:hover .banner img{
+    transform: scale(1.2);
+}
+
+
 /* button style */
 .button{
     margin-top: 25px;
@@ -139,7 +144,7 @@ footer{
 .footer-section{
     width: 484px;
     height: 213px;
-    margin-top: 200px;
+    margin-top: 137px;
     display: grid;
     grid-template-columns: repeat(1,1fr);
 }
